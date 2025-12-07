@@ -1,23 +1,130 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>My Portfolio</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio - Home</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <h2>My Portfolio</h2>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="projects.html">Projects</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
 
-<nav>
-  <a href="index.html">Home</a>
-  <a href="projects.html">Projects</a>
-  <a href="about.html">About</a>
-</nav>
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Hello, I'm <span class="highlight">Mammadli Mahammad</span></h1>
+                <p class="subtitle">Software Developer | Penetration Tester | Student</p>
+                <p class="description">
+                    Welcome to my portfolio! I'm passionate about creating beautiful and functional websites and securing them.
+                </p>
+                <div class="cta-buttons">
+                    <a href="projects.html" class="btn btn-primary">View My Work</a>
+                    <a href="blog.html" class="btn btn-secondary">Read My Blog</a>
+                </div>
+            </div>
+        </div>
+    </section>
 
-<div class="container">
-  <h1>Hi, I’m a Web Developer</h1>
-  <p>I build clean and modern websites.</p>
-  <a href="projects.html" class="btn">View My Projects</a>
-</div>
+    <section class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        I am a dedicated student with a passion for technology and web development. 
+                        My journey in programming started with C#, and I've been continuously 
+                        learning and improving my skills ever since.
+                    </p>
+                    <p>
+                        I believe in creating user-friendly, responsive, and visually appealing websites 
+                        that provide excellent user experiences across all devices.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-<footer>© 2025 My Portfolio</footer>
+    <section class="education">
+        <div class="container">
+            <h2 class="section-title">Education</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>ASOIU(Azerbaijan State Oil and Industry University)</h3>
+                        <p class="timeline-date">2024 - Present</p>
+                        <p>Bachelor's Degree in Cyber Security</p>
+                        <p>Relevant coursework: Web Development, Data Structures, Algorithms, Pentesting</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Previous Education</h3>
+                        <p class="timeline-date">2013 - 2024</p>
+                        <p>279N scholl</p>
+                        <p>Focus on Mathematics and Computer Science</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <h3>Frontend</h3>
+                    <ul>
+                        <li>HTML5 & CSS3</li>
+                        <li>JavaScript</li>
+                        <li>Responsive Design</li>
+                    </ul>
+                </div>
+                <div class="skill-card">
+                    <h3>Tools</h3>
+                    <ul>
+                        <li>Git & GitHub</li>
+                        <li>VS Code</li>
+                        <li>Chrome DevTools</li>
+                    </ul>
+                </div>
+                <div class="skill-card">
+                    <h3>Other</h3>
+                    <ul>
+                        <li>Problem Solving</li>
+                        <li>Team Collaboration</li>
+                        <li>Quick Learner</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Mammadli Mahammad. All rights reserved.</p>
+            <p>Built with HTML, CSS, and hosted on GitHub Pages</p>
+        </div>
+    </footer>
+
 </body>
 </html>
