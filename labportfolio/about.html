@@ -1,27 +1,112 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>About Me</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio - Blog</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <h2>My Portfolio</h2>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="blog.html" class="active">Blog</a></li>
+                <li><a href="projects.html">Projects</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
 
-<nav>
-  <a href="index.html">Home</a>
-  <a href="projects.html">Projects</a>
-  <a href="about.html">About</a>
-</nav>
+    <section class="page-header">
+        <div class="container">
+            <h1>My Blog</h1>
+            <p>Thoughts and experiences from my learning journey</p>
+        </div>
+    </section>
 
-<div class="container">
-  <h1>About Me</h1>
-  <p>
-    I am a student learning web development and cybersecurity.  
-    I enjoy building clean websites and working on ethical hacking labs.
-  </p>
+    <section class="blog-section">
+        <div class="container">
+            <article class="simple-blog">
+                <h3>Getting Started with GitHub Pages</h3>
+                <p class="blog-date">November 20, 2025</p>
+                <p>
+                    GitHub Pages is an amazing free hosting service that allows you to publish 
+                    websites directly from your GitHub repository. The process is surprisingly simple. 
+                    After creating a repository, you just need to enable GitHub Pages in the settings, 
+                    and your site goes live within minutes.
+                </p>
+            </article>
 
-  <a href="projects.html" class="btn">See My Work</a>
-</div>
+            <article class="simple-blog">
+                <h3>My Journey Learning Web Development</h3>
+                <p class="blog-date">November 15, 2025</p>
+                <p>
+                    When I first started learning web development, HTML and CSS seemed daunting. 
+                    But with consistent practice and the right resources, I've made significant progress. 
+                    The key is to start small and build projects. Each small project teaches you 
+                    something new and builds your confidence.
+                </p>
+            </article>
 
-<footer>© 2025 My Portfolio</footer>
+            <article class="simple-blog">
+                <h3>Responsive Design: Why It Matters</h3>
+                <p class="blog-date">November 10, 2025</p>
+                <p>
+                    In today's world, people browse websites on phones, tablets, laptops, and desktops. 
+                    Responsive design ensures your website looks great and functions properly on all 
+                    these devices. Using media queries and flexible grids, you can create websites 
+                    that adapt seamlessly to any screen size.
+                </p>
+            </article>
+
+            <article class="simple-blog">
+                <h3>Essential Tools for Web Developers</h3>
+                <p class="blog-date">November 5, 2025</p>
+                <p>
+                    As a beginner web developer, having the right tools can significantly boost your 
+                    productivity and learning speed. Here are my must-have tools that I use daily: 
+                    VS Code for coding, Chrome DevTools for debugging, and Git for version control. 
+                    Each of these tools has made my development process smoother and more efficient.
+                </p>
+            </article>
+
+            <article class="simple-blog">
+                <h3>Building My First Portfolio Website</h3>
+                <p class="blog-date">October 28, 2025</p>
+                <p>
+                    Creating a portfolio website was one of my first major web development projects. 
+                    It was challenging, exciting, and incredibly rewarding. I learned so much about 
+                    HTML structure, CSS styling, responsive design, and hosting. This experience taught 
+                    me the importance of planning and testing across different devices.
+                </p>
+            </article>
+
+            <article class="simple-blog">
+                <h3>Why I Chose Web Development</h3>
+                <p class="blog-date">October 20, 2025</p>
+                <p>
+                    Everyone has their own story of how they got into programming. For me, it started 
+                    with curiosity about how websites work. The ability to create something visible 
+                    and interactive that people around the world can use fascinated me. Web development 
+                    combines creativity with logic, design with functionality.
+                </p>
+            </article>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Your Name. All rights reserved.</p>
+            <p>Built with HTML, CSS, and hosted on GitHub Pages</p>
+        </div>
+    </footer>
 </body>
 </html>
