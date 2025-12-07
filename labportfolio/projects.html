@@ -1,39 +1,75 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>My Projects</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio - Projects</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <h2>My Portfolio</h2>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="projects.html" class="active">Projects</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
 
-<nav>
-  <a href="index.html">Home</a>
-  <a href="projects.html">Projects</a>
-  <a href="about.html">About</a>
-</nav>
+    <section class="page-header">
+        <div class="container">
+            <h1>My Projects</h1>
+            <p>A collection of my work</p>
+        </div>
+    </section>
 
-<div class="container">
-  <h1>My Projects</h1>
-  <p>Some of the work I’ve built</p>
+    <section class="projects-section">
+        <div class="container">
+            <div class="simple-project">
+                <h3>Portfolio Website</h3>
+                <p>A personal portfolio website built with HTML and CSS. Features responsive design and clean layout.</p>
+                <p><strong>Technologies:</strong> HTML, CSS</p>
+                <a href="index.html" class="btn">Open Project</a>
+            </div>
 
-  <div class="projects-grid">
-    <div class="project-card">
-      <h3>Login Page</h3>
-      <p>Modern login form with animations.</p>
-    </div>
+            <div class="simple-project">
+                <h3>Calculator App</h3>
+                <p>A functional calculator application with basic arithmetic operations and responsive design.</p>
+                <p><strong>Technologies:</strong> HTML, CSS, JS</p>
+                <a href="calculator.html" class="btn">Open Project</a>
+            </div>
 
-    <div class="project-card">
-      <h3>Portfolio Website</h3>
-      <p>Personal responsive portfolio.</p>
-    </div>
+            <div class="simple-project">
+                <h3>To-Do List</h3>
+                <p>A task management app where users can add, edit, and delete tasks.</p>
+                <p><strong>Technologies:</strong> HTML, CSS, JS</p>
+                <a href="to-do.html" class="btn">Open Project</a>
+            </div>
 
-    <div class="project-card">
-      <h3>CTF Dashboard</h3>
-      <p>Cybersecurity lab dashboard UI.</p>
-    </div>
-  </div>
-</div>
+            <div class="simple-project">
+                <h3>Weather Display</h3>
+                <p>Weather information display that shows current conditions and forecasts.</p>
+                <p><strong>Technologies:</strong> HTML, CSS</p>
+            </div>
+        </div>
+    </section>
 
-<footer>© 2025 My Portfolio</footer>
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Mammadli Mahammad. All rights reserved.</p>
+            <p>Built with HTML, CSS, and hosted on GitHub Pages</p>
+        </div>
+    </footer>
+
+
 </body>
 </html>
